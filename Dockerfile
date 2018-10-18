@@ -1,4 +1,4 @@
-FROM agrdocker/agr_java_env:latest
+FROM gocd.alliancegenome.org:5000/agr_java_env:latest
 
 RUN apt-get install -y python3 python3-pip
 
